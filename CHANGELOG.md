@@ -4,6 +4,8 @@
 
 * [CHANGE] Compactor: No longer upload debug meta files to object storage. #1257
 * [FEATURE] Ruler: Allow setting `evaluation_delay` for each rule group via rules group configuration file. #1474
+* [FEATURE] Ruler: Added support for expression remote evaluation. #1536
+  * Added `-ruler.querier.address` config flag.
 * [FEATURE] Distributor: Added the ability to forward specifics metrics to alternative remote_write API endpoints. #1052
 * [ENHANCEMENT] Ruler: Add more detailed query information to ruler query stats logging. #1411
 * [ENHANCEMENT] Admin: Admin API now has some styling. #1482
