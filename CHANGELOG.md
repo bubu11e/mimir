@@ -1,6 +1,7 @@
 # Changelog
 
 ## main / unreleased
+* [BUGFIX] Debian package: Fix post-install, environment file path and user creation. #XXXX  
 
 ### Grafana Mimir
 
